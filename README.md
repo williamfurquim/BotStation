@@ -1,3 +1,6 @@
+🚨 Este projeto possui arquitetura com múltiplas camadas e variáveis sensíveis, o que inviabiliza sua publicação em ambiente público gratuito.
+--
+
 Aplicação fullstack desenvolvida com React + TypeScript no front-end e Node.js na API, utilizando Supabase para autenticação e persistência de usuários. O sistema permite cadastro, login e gerenciamento completo (CRUD) de cards contendo informações pessoais e avatar dinâmico.
 
 👉 VISÃO GERAL
