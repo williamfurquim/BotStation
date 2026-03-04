@@ -1,0 +1,62 @@
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.733);
+    width: min(90%, 500px);
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: 0.2s;    
+}
+
+.card img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #919191;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card img:hover{
+    transform: translateY(-3px);
+}
+
+.card p {
+    font-size: 1rem;
+    cursor: default;
+}
+
+.card button{
+    background: transparent;
+    border: none;
+    color: rgb(165, 0, 0);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.card button:hover{
+    color: rgb(0, 0, 0);
+}
+
+.botoesCrud{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.erro {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

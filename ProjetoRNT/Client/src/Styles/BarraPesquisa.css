@@ -1,0 +1,17 @@
+.input-pesquisa {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 24px;
+    width: min(90%, 300px);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin: 20px auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.584);
+    color: #000000;
+}
+
+.input-pesquisa::placeholder{
+    font-size: 1rem;
+    color: #282828;
+}
